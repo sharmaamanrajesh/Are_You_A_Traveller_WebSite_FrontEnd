@@ -305,7 +305,34 @@ div.header-content h1.main-heading{
 
 }
 
+/* ######################## Footer Styling ################# */
 
+
+
+.footer{
+    background: #085078;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #85D8CE, #085078);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #85D8CE, #085078); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    height: auto;
+    padding: 3vh;
+}
+
+.footer .facebook:hover{
+    color: #000;
+}
+.footer .instagram:hover{
+    color: #000;
+}
+.footer .twitter:hover{
+    color: #000;
+}
+.facebook,.instagram,.twitter{
+    margin: 2em;
+}
+.social-media-links{
+    margin-bottom: 1em;
+}
 
 
 
