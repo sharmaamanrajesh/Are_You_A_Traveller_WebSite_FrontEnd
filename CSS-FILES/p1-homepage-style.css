@@ -338,4 +338,127 @@ div.header-content h1.main-heading{
 
 
 
+/* ######################## About Page Styling ################### */
+
+
+
+.about{
+    padding: 2em;
+}
+.about-us-heading{
+    border-bottom: 7px solid #085078;
+    padding-bottom: 0.5em ;
+}
+.about .para-1{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.about .p1{
+    word-spacing: 0.5em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    padding: 1em;
+}
+.about .sub-container{
+    padding: 0px 10rem;
+
+}
+.about .sub-container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.about .sub-cont-left{
+    float: left;
+}
+.about .sub-cont-right{
+    float: right;
+}
+
+
+
+
+
+.records::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.records div{
+    float: left;
+
+
+}
+.record-1,.record-2,.record-3,.record-4{
+    text-align: center;
+    width: 25%;
+
+}
+.records .record-1,
+.records .record-2,
+.records .record-3,
+.records .record-4{
+margin: 6em 0em ;
+}
+.records .record-1 span,
+.records .record-2 span,
+.records .record-3 span,
+.records .record-4 span{
+    display: inline-block;
+    padding: 0.5em 0em;
+}
+
+
+
+
+
+.reach-us{
+    margin-top: 5vh;
+    text-align: center;
+    background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 0px 15px 0px rgba(51, 51, 51, 0.541);
+}
+.reach-us::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.reach-us .cont-1{
+    float: left;
+    padding: 2em;
+    margin: 0.5em 0em;
+    text-align: center;
+
+}
+.reach-us .cont-2{
+    float: right;
+    padding: 2em;
+    margin: 0.5em 0.5em;
+    text-align: center;
+    border: 2px solid rgb(192, 240, 241);
+
+}
+.reach-us .cont-2 a:hover{
+    color: #F8CDDA;
+
+}
+.reach-us .cont-2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
