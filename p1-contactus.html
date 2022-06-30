@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS-FILES/p1-homepage-style.css">
+    <script src="https://kit.fontawesome.com/e6cb6ac5da.js" crossorigin="anonymous"></script>
+
+    <title>Are You a Traveller? | Contact Us Page</title>
+
+</head>
+<body>
+    <nav class="nav-bar linear-gradient-bg">
+        <div class="container">
+            <img class="logo" src="./IMAGES/red-1618916.png" alt="Are You a Traveller? Logo">
+            <ul class="nav-items">
+                <li class="item medium-text"><a href="./index.html">Home</a></li>
+                <li class="item medium-text"><a href="./p1-aboutus.html">About</a></li>
+                <li class="item medium-text"><a href="./p1-contactus.html">Contact</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <section class="contact-us-section">
+        <div class="container contact-page-wrapper">
+            <div class=" content contact-address">
+                <div class="c-1">
+                    <h2 class="location  dark-blue-text medium-text h2-loc"><i class="fas fa-map-marker-alt "></i> Location:</h2>
+                    <p class="location small-text">04, Baker's Street, London, United Kingdom.</p>
+                </div>
+                <div class="c-2">
+                    <h2 class="email dark-blue-text medium-text h2-em"><i class="fas fa-envelope"></i> E-mail:</h2>
+                    <p class="email small-text">aaman665566@gmail.com</p>
+                </div>    
+                <div class="c-3">
+                    <h2 class="call dark-blue-text medium-text h2-call"><i class="fas fa-phone-square-alt"></i> Call:</h2>
+                    <p class="call small-text">+91 9876543210</p>
+                </div>
+                <div class="c-4">
+                    <img src="./IMAGES/office-building.jpg" alt="Office Building">
+                </div>
+
+               
+            </div>
+            <form action="./p1-thankyou.html" method="POST">
+                <div class=" content contact-form">
+                    <h2 class="contact-us-heading dark-blue-text large-text">Contact Us</h2>
+                    <p class="form-para small-text">
+                        Let us know what are you thinking about us, just by filling the details below.
+                    </p>
+                    <div class="form-groups">
+                    <label class="labels astrisk small-text" for="name">Name:</label>
+                    <input class="inputs" type="text" id="name" name="Name" placeholder="" required>
+    
+                    </div>
+                    <div class="form-groups">
+                    <label class="labels astrisk small-text" for="email">Email ID:</label>
+                    <input class="inputs" type="email" id="email" name="Email-ID" placeholder="" required>
+    
+                    </div>
+                    <div class="form-groups">
+                    <label class="labels astrisk small-text" for="phone">Mobile No.:</label>
+                    <input class="inputs" type="tel" name="Mobile-No." id="phone" placeholder="" pattern="[0-9]{10}" required>
+    
+                    </div>
+                    <div class="form-groups">
+                    <label class="labels small-text" for="comment">Message:</label>
+                    <textarea name="Comment" id="comment"></textarea>
+    
+                    </div>
+                    <button type="submit" class="form-button">Submit</button>
+                </div>
+    
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>

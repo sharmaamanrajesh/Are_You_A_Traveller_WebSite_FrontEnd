@@ -454,7 +454,95 @@ margin: 6em 0em ;
 
 
 
+/* ################################# Contact Us Page Styling ############################## */
 
+
+.contact-us-section .content{
+    height: 680px;
+}
+.contact-us-section{
+    height: auto;
+}
+.contact-us-section .contact-page-wrapper{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.445);
+
+}
+.contact-us-section .contact-page-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.contact-page-wrapper .content div{
+
+    padding: 1em;
+}
+.contact-us-section .contact-page-wrapper .contact-address{
+    width: 49%;
+    float: left;
+}
+.contact-us-section .contact-page-wrapper .contact-form{
+    width: 49%;
+    float: right;
+}
+.contact-us-section .contact-page-wrapper .c-4 img{
+    max-width: 100%;
+   min-height: 40rem;
+   object-fit: cover;
+   object-position: left;
+}
+.contact-us-section .contact-page-wrapper h2{
+    padding: 0.5em 0px;
+}
+
+/* ################### Form Styling #################### */
+
+.contact-us-section .contact-form h2{
+    border-bottom: 4px solid #234567;
+    padding: 0em 0em;
+}
+.contact-us-section .contact-form .form-para{
+    padding: 1em 0em ;
+}
+.contact-us-section .contact-form{
+    padding: 1em;
+}
+.contact-us-section .contact-form .form-groups textarea{
+    width: 100%;
+    height: 300px;
+
+}
+
+.contact-us-section .contact-form .form-groups .labels,
+.contact-us-section .contact-form .form-groups .inputs{
+display: block;
+width: 100%;
+}
+.contact-us-section .contact-form .form-groups .astrisk::after{
+    content: '*';
+    color: red;
+}
+.contact-us-section .contact-form .form-groups{
+    padding: 1em 0em;
+}
+
+.contact-us-section .contact-form .form-button{
+    display: block;
+    margin: 0.63em auto;
+    padding: 0.2em 1em;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #234567;
+    background: #2BC0E4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+
+}
 
 
 
